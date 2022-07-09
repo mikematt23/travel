@@ -1,13 +1,23 @@
 body{
   font-family: "Quicksand", "san-serif";
+  
 }
 header{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
 }
 ul{
   list-style: none;
   padding: 0px;
   margin: 0px;
+}
+header ul{
+  display: flex;
+}
+header li{
+  margin-left: 20px;
 }
 #page-logo a{
   padding: 10px;
